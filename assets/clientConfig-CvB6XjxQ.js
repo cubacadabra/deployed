@@ -1,0 +1,1 @@
+var e={step:8,maxDistance:16,thirdPersonThreshold:.75},t={webSocketUrl:`wss://api.cubacadabra.com`};function n(e){let n=new URL(t.webSocketUrl);return n.protocol=n.protocol===`wss:`?`https:`:`http:`,n.pathname=e,n.search=``,n.hash=``,n}export{t as n,e as r,n as t};

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="cubacadabra is a tiny open-source 3D multiplayer world powered by a Rust simulation and rendered in the browser."
+    />
+    <meta name="author" content="cubacadabra" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#e8e4cd" />
+    <link rel="canonical" href="https://cubacadabra.com/" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="cubacadabra" />
+    <meta property="og:url" content="https://cubacadabra.com/" />
+    <meta property="og:title" content="cubacadabra — World 01" />
+    <meta
+      property="og:description"
+      content="A tiny open-source 3D multiplayer world powered by a Rust simulation and rendered in the browser."
+    />
+    <meta property="og:image" content="https://cubacadabra.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="cubacadabra World 01 — Empty baseplate" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="cubacadabra — World 01" />
+    <meta name="twitter:description" content="A tiny open-source 3D multiplayer world powered by a Rust simulation and rendered in the browser." />
+    <meta name="twitter:image" content="https://cubacadabra.com/og-image.png" />
+    <meta name="twitter:image:alt" content="cubacadabra World 01 — Empty baseplate" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://cubacadabra.com/#website",
+            "url": "https://cubacadabra.com/",
+            "name": "cubacadabra",
+            "description": "A tiny open-source 3D multiplayer world for creators and players."
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://cubacadabra.com/#organization",
+            "name": "cubacadabra",
+            "url": "https://cubacadabra.com/",
+            "logo": "https://cubacadabra.com/favicon.svg",
+            "sameAs": ["https://github.com/cubacadabra"]
+          },
+          {
+            "@type": "VideoGame",
+            "name": "cubacadabra World 01",
+            "url": "https://cubacadabra.com/",
+            "description": "A tiny open-source 3D multiplayer world you can explore in the browser.",
+            "gamePlatform": "Web browser",
+            "genre": ["Sandbox", "Multiplayer"]
+          }
+        ]
+      }
+    </script>
+    <title>cubacadabra — World 01</title>
+    <script type="module" crossorigin src="/assets/main-De7bWCw6.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-P2Xu9kJm.js">
+    <link rel="stylesheet" crossorigin href="/assets/styles-DyKX6y24.css">
+  </head>
+  <body>
+    <main class="world-shell" id="world-shell">
+      <canvas
+        id="world-canvas"
+        class="world-canvas"
+        tabindex="0"
+        aria-label="cubacadabra world. Drag to look. Use WASD or arrow keys to move, Shift to run, and Space to jump. Touch devices have Rust-rendered controls."
+      ></canvas>
+
+      <div class="atmosphere" aria-hidden="true"></div>
+
+      <aside class="world-event" id="world-event" aria-live="polite" hidden>
+        <span class="world-event-mark" aria-hidden="true"></span>
+        <span id="world-event-copy"></span>
+      </aside>
+
+      <aside
+        class="settings-room-panel"
+        id="settings-room-panel"
+        aria-labelledby="settings-room-title"
+        aria-hidden="true"
+        hidden
+      >
+        <div class="settings-room-card">
+          <header class="settings-room-header">
+            <div>
+              <p class="eyebrow">Player identity</p>
+              <h2 id="settings-room-title">Edit username</h2>
+            </div>
+            <button class="settings-leave-button" id="settings-cancel-button" type="button">
+              Cancel
+            </button>
+          </header>
+
+          <div class="settings-room-body">
+            <form class="settings-username-form" id="settings-age-form" hidden>
+              <label class="settings-field-label" for="settings-dob-input">Before choosing a name</label>
+              <p class="settings-status">Tell us your date of birth to unlock player names and other social features.</p>
+              <input
+                id="settings-dob-input"
+                name="dob"
+                type="date"
+                autocomplete="bday"
+                required
+              />
+              <p class="settings-status" id="settings-age-status" aria-live="polite">
+                Your date of birth is used to check which features are available.
+              </p>
+              <div class="settings-field-actions">
+                <button class="settings-leave-button" id="settings-age-cancel-button" type="button">Cancel</button>
+                <button class="settings-save-button" type="submit">Continue</button>
+              </div>
+            </form>
+            <form class="settings-username-form" id="settings-username-form">
+              <label class="settings-field-label" for="settings-username-input">Your player name</label>
+              <input
+                id="settings-username-input"
+                name="username"
+                type="text"
+                autocomplete="nickname"
+                minlength="2"
+                maxlength="24"
+                pattern="[A-Za-z0-9 _\-]+"
+                required
+              />
+              <p class="settings-status" id="settings-username-status" aria-live="polite">
+                Choose a unique name using 2–24 characters.
+              </p>
+              <div class="settings-field-actions">
+                <button class="settings-leave-button" id="settings-cancel-button-secondary" type="button">Cancel</button>
+                <button class="settings-save-button" type="submit">Save name</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </aside>
+
+
+      <div class="crosshair" aria-hidden="true">
+        <span></span>
+        <span></span>
+      </div>
+
+
+      <div class="loading-state" id="loading-state" role="status">
+        <span class="loading-mark" aria-hidden="true"></span>
+        <span>Building world</span>
+      </div>
+    </main>
+
+  </body>
+</html>
