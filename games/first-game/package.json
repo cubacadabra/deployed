@@ -1,0 +1,16 @@
+{
+  "formatVersion": 1,
+  "id": "first-game",
+  "version": "0.3.0",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "assets/.DS_Store",
+    "assets/audio/charm-learned.wav",
+    "assets/audio/circle-ready.wav",
+    "assets/audio/rainbow-burst.wav",
+    "assets/audio/spell-cast.wav",
+    "game.luau",
+    "manifest.json"
+  ]
+}

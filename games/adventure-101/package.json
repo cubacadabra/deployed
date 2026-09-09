@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "id": "adventure-101",
+  "version": "0.4.1",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "assets/images/forest-grass.png",
+    "assets/images/forest-wood.png",
+    "game.luau",
+    "manifest.json"
+  ]
+}

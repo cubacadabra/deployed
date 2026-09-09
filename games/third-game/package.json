@@ -1,0 +1,14 @@
+{
+  "formatVersion": 1,
+  "id": "third-game",
+  "version": "0.3.0",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "assets/.DS_Store",
+    "assets/audio/probe-ping.wav",
+    "assets/images/billboard.jpg",
+    "game.luau",
+    "manifest.json"
+  ]
+}
