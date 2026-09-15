@@ -1,0 +1,23 @@
+{
+  "formatVersion": 3,
+  "id": "first-game",
+  "version": "0.3.0",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "assets/audio/charm-learned.wav",
+    "assets/audio/circle-ready.wav",
+    "assets/audio/rainbow-burst.wav",
+    "assets/audio/spell-cast.wav",
+    "game.luau",
+    "manifest.json"
+  ],
+  "sha256": {
+    "assets/audio/charm-learned.wav": "948bd674e89c9455abb088c3aa31838872d73518402a7b5864dbbbc2bb0b6722",
+    "assets/audio/circle-ready.wav": "ddea59278970779dcc73de3b072e4d543d9adaa3642a24359d06023d0a20475e",
+    "assets/audio/rainbow-burst.wav": "9429dc18398a447f3fc977dc3e9e2b6d831bd5ed4ff5622e2f5ff903aa284880",
+    "assets/audio/spell-cast.wav": "f4c3aeef9378aeaaa869af70acb5d362e914bc41c83a45ecf552b62ca887c022",
+    "game.luau": "3addd6247c45fb7dab8b3b9b133376856bb61d8a6a4e0d3193e407910865621a",
+    "manifest.json": "b667ab3b07d3f1c1feddab56358f944c4c04941a5f29f6e84d090a0c74a3d3a7"
+  }
+}

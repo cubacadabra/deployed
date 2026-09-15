@@ -1,0 +1,19 @@
+{
+  "formatVersion": 3,
+  "id": "adventure-101",
+  "version": "0.4.6",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "assets/images/forest-grass.png",
+    "assets/images/forest-wood.png",
+    "game.luau",
+    "manifest.json"
+  ],
+  "sha256": {
+    "assets/images/forest-grass.png": "93e42dcb96093de4c2aa8f4a5eeddad68a0597148963801328950588d20c74a7",
+    "assets/images/forest-wood.png": "418fe7cf41a61f14fb4c1c7e7faf67d5ff889e262e49d8d07f824b0b506be141",
+    "game.luau": "ec4e46d7efc6c850f8f51677ff3649d9eb23823509798daa4b359cdc349bb619",
+    "manifest.json": "5368f0f84957fdaba109f7766db36cfe90f58c29f565155be0f21d4f875424c9"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "formatVersion": 3,
+  "id": "survival-101",
+  "version": "0.3.11",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "assets/images/campfire-alpha.png",
+    "assets/images/forest-grass.png",
+    "assets/images/forest-wood.png",
+    "game.luau",
+    "manifest.json"
+  ],
+  "sha256": {
+    "assets/images/campfire-alpha.png": "33fcdb676e1190fc95fa6cfa95b182c31ccb71fb8fb2b18c732cad01d59aa2ce",
+    "assets/images/forest-grass.png": "93e42dcb96093de4c2aa8f4a5eeddad68a0597148963801328950588d20c74a7",
+    "assets/images/forest-wood.png": "418fe7cf41a61f14fb4c1c7e7faf67d5ff889e262e49d8d07f824b0b506be141",
+    "game.luau": "9af15a52b467f4ded5bcb832a10fd819201796213b2519059c5df5de02202f13",
+    "manifest.json": "acb601b26e95ec9dab37a1298cb2e2134da67b040fea4ca021096064573163aa"
+  }
+}
