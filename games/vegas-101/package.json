@@ -1,0 +1,36 @@
+{
+  "formatVersion": 3,
+  "id": "vegas-101",
+  "version": "0.1.1",
+  "runtime": {
+    "api": "0.6.0"
+  },
+  "dependencies": {},
+  "dependencyPolicy": "canonical-toolchain",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "assets/models/vegas_chair.bounds.json",
+    "assets/models/vegas_chair.glb",
+    "assets/models/vegas_map.bounds.json",
+    "assets/models/vegas_map.glb",
+    "assets/models/vegas_slots.bounds.json",
+    "assets/models/vegas_slots.glb",
+    "assets/models/vegas_tables.bounds.json",
+    "assets/models/vegas_tables.glb",
+    "game.luau",
+    "manifest.json"
+  ],
+  "sha256": {
+    "assets/models/vegas_chair.bounds.json": "400d3265a8c16610a328a766e06cf218f6b07ff3d7cd3642dfe16849a1a69a98",
+    "assets/models/vegas_chair.glb": "28a6d1eb2e2e472d17b832ea0cab5123365fea813463e9d3c12c5a6b374ec5bc",
+    "assets/models/vegas_map.bounds.json": "6c4361688d8041331c2cc5f9a2d1ab333bf34eaa6ee4bc23f4d362f980a56373",
+    "assets/models/vegas_map.glb": "74f504ef5abf985faf795648d8514adbc3fa8681bc4c9fe7b0556e37acccdac7",
+    "assets/models/vegas_slots.bounds.json": "37752bdcd0329272ffe6db936155f07677600c9a053f7f5b64c711b54e0afe44",
+    "assets/models/vegas_slots.glb": "47d264d8de598a61c6172d014337a019f60c4ddfdc6312aa0efd5101c37b701a",
+    "assets/models/vegas_tables.bounds.json": "1354b5c804957ab2630f78cdf58170152d1dd6d481234e0a7c827e38e5110435",
+    "assets/models/vegas_tables.glb": "549f765839b2fd186b25c8a231471fef7d909c12243e76a7add14562ddb56c3b",
+    "game.luau": "e5301dd8a1fdde3a291005a46b47f9ca7e59f020211e431cf11cfa83de84720b",
+    "manifest.json": "fd1a087ac66d8e4a6cc6098a57678a907054f6543ca2f9b691a8be939a779448"
+  }
+}

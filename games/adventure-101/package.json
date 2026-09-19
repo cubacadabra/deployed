@@ -1,0 +1,33 @@
+{
+  "formatVersion": 3,
+  "id": "adventure-101",
+  "version": "0.4.6",
+  "runtime": {
+    "api": "0.3.0"
+  },
+  "dependencies": {
+    "@cubacadabra/survival": {
+      "source": "cubacadabra-preview-sdk",
+      "sha256": "b9caa25e154fadc1e3b468bf8699f0a5f17dc299beb2f3312056735662553b12"
+    },
+    "@cubacadabra/shared-state": {
+      "source": "cubacadabra-preview-sdk",
+      "sha256": "e6576416d502102ffffdd9964c3cc6a7f36cda97971e0d54fda10669778d05a3"
+    }
+  },
+  "dependencyPolicy": "canonical-toolchain",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "assets/images/forest-grass.png",
+    "assets/images/forest-wood.png",
+    "game.luau",
+    "manifest.json"
+  ],
+  "sha256": {
+    "assets/images/forest-grass.png": "93e42dcb96093de4c2aa8f4a5eeddad68a0597148963801328950588d20c74a7",
+    "assets/images/forest-wood.png": "418fe7cf41a61f14fb4c1c7e7faf67d5ff889e262e49d8d07f824b0b506be141",
+    "game.luau": "ec4e46d7efc6c850f8f51677ff3649d9eb23823509798daa4b359cdc349bb619",
+    "manifest.json": "93b89dfc9e75adfd730d5a66d1aeb8d3b5d29ff3b10d662781d5b1cb25140bf2"
+  }
+}
