@@ -1,0 +1,33 @@
+{
+  "formatVersion": 3,
+  "id": "third-game",
+  "version": "0.3.0",
+  "runtime": {
+    "api": "0.3.0"
+  },
+  "dependencies": {
+    "@cubacadabra/shared-state": {
+      "source": "cubacadabra-preview-sdk",
+      "sha256": "e6576416d502102ffffdd9964c3cc6a7f36cda97971e0d54fda10669778d05a3"
+    },
+    "@cubacadabra/disclosure": {
+      "source": "cubacadabra-preview-sdk",
+      "sha256": "8263dcdc5d76117344ca74a1e582933bbe68f3facde0d12e657981081899f67d"
+    }
+  },
+  "dependencyPolicy": "canonical-toolchain",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "assets/audio/probe-ping.wav",
+    "assets/images/billboard.jpg",
+    "game.luau",
+    "manifest.json"
+  ],
+  "sha256": {
+    "assets/audio/probe-ping.wav": "948bd674e89c9455abb088c3aa31838872d73518402a7b5864dbbbc2bb0b6722",
+    "assets/images/billboard.jpg": "e6c3a2ff9dc097c545337857c4f46032a12f1ebfe39012d506e71976940115b7",
+    "game.luau": "2771c5b31bca7c6c8f622da95fb5140d56bba84f1d992d3e6f3985c43232ba08",
+    "manifest.json": "506c6a1894b36c7e6e89213be5016a5829af39c33a78033638191e891ba73cd1"
+  }
+}

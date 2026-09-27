@@ -1,0 +1,23 @@
+{
+  "formatVersion": 3,
+  "id": "maze-101",
+  "version": "0.3.0",
+  "runtime": {
+    "api": "0.4.0"
+  },
+  "dependencies": {},
+  "dependencyPolicy": "canonical-toolchain",
+  "entry": "game.luau",
+  "manifest": "manifest.json",
+  "files": [
+    "authority.luau",
+    "game.luau",
+    "manifest.json"
+  ],
+  "sha256": {
+    "authority.luau": "8253a67be8ff0ca9646d8bee258f8dacebd7a0df743c068f80d76d96ecaa8291",
+    "game.luau": "f0aa8aa8865ed98636f399ed697faa275c91f8401293ff2cbd6e71e14672794e",
+    "manifest.json": "eb027010965566661168cda382e71a84a6254901049266668cb9d8285dc6a270"
+  },
+  "authorityEntry": "authority.luau"
+}
